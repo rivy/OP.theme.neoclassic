@@ -1,6 +1,10 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+// Default no underline for links; add underline on link hover
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
 // Improve subscript & superscript display
 sub, sup { display: inline; font-size: 0.75em; vertical-align: baseline; position: relative; }
 sub { bottom: -.4em; }
